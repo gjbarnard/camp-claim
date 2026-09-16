@@ -2,16 +2,7 @@ maintainers:
 - github: gjb2048
   name: Gareth Barnard
 security-contact: https://github.com/gjbarnard/camp-claim/security/advisories
-labels:
-- fully-free
-- donation-supported
-- commercial-support-available
+labels: [fully-free, donation-supported, commercial-support-available]
 overrides:
-  theme_adaptable:
-    labels:
-    - freemium
-    - donation-supported
-    - commercial-support-available
-  block_theme_selector:
-    labels:
-      - fully-free
+  theme_adaptable: {labels: [freemium, donation-supported, commercial-support-available]}
+  block_theme_selector: {labels: [fully-free]}
