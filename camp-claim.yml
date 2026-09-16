@@ -1,5 +1,6 @@
 maintainers:
 - github: gjb2048
+  name: Gareth Barnard
 security-contact: https://github.com/gjbarnard/camp-claim/security/advisories
 labels:
 - fully-free
